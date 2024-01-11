@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: java-initializr
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 9001
+
+app:
+  id: ${spring.application.name}
+
+apollo:
+  meta: http://127.0.0.1:9000
+  bootstrap:
+    enabled: false
+    namespaces: application
+
+eureka:
+  client:
+    enabled: false
