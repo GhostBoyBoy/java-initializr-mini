@@ -3,9 +3,23 @@ spring:
     name: java-initializr
   main:
     allow-bean-definition-overriding: true
-
+  rabbitmq: 
+    host: rabbitmq-serverless-cn-27a3jk1lz0a.cn-hangzhou.amqp-15.net.mq.amqp.aliyuncs.com
+    port: 5672
+    username: MjpyYWJiaXRtcS1zZXJ2ZXJsZXNzLWNuLTI3YTNqazFsejBhOkxUQUk1dEtaTHA0NlV5U3pTVEZITFBOVw==
+    password: MjJEOTQ1NUMwMTZGQzRGNzZFMEExRjQ0ODM0NUVBMzlDQTZDRDlDOToxNzAzNzU1MTE2MzU1
+    virtual-host: mishu-oms-test
+    listener.simple.acknowledge-mode: manual
+    dynamic: true
+    prefetch:
+      count: 1
+    concurrent:
+      consumers: 1
+    max:
+      concurrent:
+        consumers: 1
 server:
-  port: 9001
+  port: 8080
 
 app:
   id: ${spring.application.name}
@@ -19,3 +33,4 @@ apollo:
 eureka:
   client:
     enabled: false
+    

@@ -9,13 +9,14 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>java-initializr-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+
 		<dependency>
 			<groupId>com.mishu</groupId>
-			<artifactId>java-initializr-biz</artifactId>
+			<artifactId>java-initializr-common</artifactId>
 			<version>${parent.version}</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
