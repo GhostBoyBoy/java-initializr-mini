@@ -33,7 +33,7 @@
 
     </appender>
 
-    <logger name="com.mishu.*" level="INFO"/>
+    <logger name="com.demo.*" level="INFO"/>
     <root level="INFO">
         <appender-ref ref="CONSOLE-WITH-HIGHLIGHT"/>
         <appender-ref ref="FILE"/>

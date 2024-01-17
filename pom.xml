@@ -8,7 +8,7 @@
 		<version>2.6.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.mishu</groupId>
+	<groupId>com.demo</groupId>
 	<artifactId>java-initializr</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -60,7 +60,6 @@
 				<artifactId>amqp-client</artifactId>
 				<version>5.16.0</version>
 			</dependency>
-
 
 		</dependencies>
 	</dependencyManagement>

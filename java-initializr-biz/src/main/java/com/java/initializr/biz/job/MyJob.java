@@ -1,4 +1,4 @@
-package com.mishu.java.initializr.biz.job;
+package com.java.initializr.biz.job;
 
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;

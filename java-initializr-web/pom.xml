@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.mishu</groupId>
+		<groupId>com.demo</groupId>
 		<artifactId>java-initializr</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
@@ -12,7 +12,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.mishu</groupId>
+			<groupId>com.demo</groupId>
 			<artifactId>java-initializr-biz</artifactId>
 			<version>${parent.version}</version>
 		</dependency>
@@ -31,7 +31,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.mishu.java.initializr.web.JavaInitializrApplication</mainClass>
+					<mainClass>com.java.initializr.web.JavaInitializrApplication</mainClass>
 				</configuration>
 				<executions>
 					<execution>

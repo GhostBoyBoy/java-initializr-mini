@@ -1,4 +1,4 @@
-package com.mishu.java.initializr.web.config;
+package com.java.initializr.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

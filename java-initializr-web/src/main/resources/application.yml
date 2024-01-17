@@ -8,7 +8,7 @@ spring:
     port: 5672
     username: MjpyYWJiaXRtcS1zZXJ2ZXJsZXNzLWNuLTI3YTNqazFsejBhOkxUQUk1dEtaTHA0NlV5U3pTVEZITFBOVw==
     password: MjJEOTQ1NUMwMTZGQzRGNzZFMEExRjQ0ODM0NUVBMzlDQTZDRDlDOToxNzAzNzU1MTE2MzU1
-    virtual-host: mishu-oms-test
+    virtual-host: demo-oms-test
     listener.simple.acknowledge-mode: manual
     dynamic: true
     prefetch:

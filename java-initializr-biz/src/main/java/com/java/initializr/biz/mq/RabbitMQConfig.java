@@ -1,4 +1,4 @@
-package com.mishu.java.initializr.biz.mq;
+package com.java.initializr.biz.mq;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;

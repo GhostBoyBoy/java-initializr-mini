@@ -1,4 +1,4 @@
-package com.mishu.java.initializr.web.filter;
+package com.java.initializr.web.filter;
 
 import lombok.extern.slf4j.Slf4j;
 

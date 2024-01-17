@@ -1,4 +1,4 @@
-package com.mishu.java.initializr.web.interceptor;
+package com.java.initializr.web.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.HandlerInterceptor;

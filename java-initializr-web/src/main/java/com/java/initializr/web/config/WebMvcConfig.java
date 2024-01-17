@@ -1,6 +1,6 @@
-package com.mishu.java.initializr.web.config;
+package com.java.initializr.web.config;
 
-import com.mishu.java.initializr.web.interceptor.MyInterceptor;
+import com.java.initializr.web.interceptor.MyInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
